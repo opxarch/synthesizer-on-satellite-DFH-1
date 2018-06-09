@@ -43,7 +43,7 @@ firstly, the filter is used to cut off the higher harmonics.
 secondly, since the signal sent from the satellite was transfering by the radio, details of signal may be lost. To simulate this kind of loss, we implemented a Chebyshev filter whose cutoff is approximately 3KHz, and the output signal will be more like being received by a real radio.
 
 ![FFT View](https://github.com/opxarch/privdats/blob/master/synthesizer-on-satellite-DFH-1/plot-05.GIF?raw=true)
-(Plot: X-axis = freq, Y-axis = magnitude)
+(Plot: X-axis = (freq * 2), Y-axis = magnitude)
 
 * (5). <span style="color:#003399;">Pitch Shifter</span>:
 as there exists a process from circuit powering on to achieving stability that the sound is artistic, a simple pitch shifter is added to create this effect.
